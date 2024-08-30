@@ -1,0 +1,62 @@
+body {
+    color: #ffffff;
+    background: #5385f1;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(2, 54, 110);
+    padding: 10px;
+    font-size: 32;
+    color: rgb(2, 54, 110);
+}
+.sec-um {
+    background: rgb(5, 180, 255);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.titulo-principal {
+    margin-right: 7%;
+}
+.disney {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 50;
+}
+.tv {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+img {
+    height: 160px;
+}
+
+.videos-rolados {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.sec-dois {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.videos-rolados img {
+    opacity: 0.5;
+}
+
+.videos-rolados img:hover {
+    opacity: 1.0;
+    border: solid 2px black;
+}
+
+.h2-1 {
+    color: rgb(2, 54, 110);
+}
